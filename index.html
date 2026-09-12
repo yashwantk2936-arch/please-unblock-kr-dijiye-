@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>One Little Request ❤️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #160b16, #3a1029, #160b16);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Floating hearts */
+.heart {
+    position: fixed;
+    bottom: -30px;
+    font-size: 20px;
+    opacity: .7;
+    animation: float 7s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    20% {
+        opacity: .8;
+    }
+    100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.container {
+    width: min(92%, 480px);
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.45);
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #f4b8d5;
+    margin-bottom: 25px;
+}
+
+.note {
+    background: rgba(0,0,0,.22);
+    border-radius: 18px;
+    padding: 20px;
+    text-align: left;
+    max-height: 230px;
+    overflow-y: auto;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.note::-webkit-scrollbar {
+    width: 5px;
+}
+
+.note::-webkit-scrollbar-thumb {
+    background: #e889b5;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.btn {
+    display: block;
+    padding: 15px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .25s;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255,255,255,.15);
+}
+
+.instagram {
+    background: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+}
+
+.snapchat {
+    background: #f4d900;
+    color: #111;
+}
+
+.no-pressure {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #c9aeba;
+}
+</style>
+</head>
+
+<body>
+
+<div class="heart" style="left:10%;animation-delay:0s;">❤️</div>
+<div class="heart" style="left:25%;animation-delay:2s;">💗</div>
+<div class="heart" style="left:45%;animation-delay:4s;">💕</div>
+<div class="heart" style="left:70%;animation-delay:1s;">❤️</div>
+<div class="heart" style="left:88%;animation-delay:3s;">💖</div>
+
+<div class="container">
+
+    <h3>PLEASE NA MALKIN AP APNI PRESHANI MERE SATH SHARE KR SKTI H
+        <br>MALKIN MAI USKO AUR NHI BADHAUGA </br>
+        <br>AGAR BS APKO SHARE KRNE JAISA LGTA H </br> </h3>
+
+    <p class="subtitle">
+        aur ek bhi request tha 
+    </p>
+
+    <div class="note">
+
+        <p>
+          malkin jo kuch bhi agar jo kuch bhi jo apko preshan kr rhi ya jisse apko kuch problem ho rhi h wo ap mere se share kr skti h malkin mai promise krta hu apki preshani aur nhi badhauga aur apka sirr drd bhi nhi krauga
+          <P> agar apka mann ho toh btaye mai zabardasti ghusne ki koshih nhi kr kruga </P> 
+          <P> mere ko pta h subah wali baat ki wajah se ap mere ko block kr de thi </P>
+        </p>
+
+        <br>
+
+        <p>
+           aur ye link bhej kr mai apko preshan krna ya apko irritae krna ya kuch bhi zabardasti nhi krwana chahta hu
+        </p>
+
+        <br>
+
+        <p>
+           agar apka mann kre aur apko problem na ho toh please na malkin mere ko insta aur snap pr se bhi unblock  kr dijiye bs agar apka mann kre toh 
+        </p>
+
+        <br>
+
+        <p>
+           aur ye bhej kr mai aise apko forcefully ya apke marzi ke bina nhi bol rha hu malkin agar ap chahe apka mann ho toh unblock kre
+        </p>
+
+        <br>
+
+        <p>
+         ap jo bhi decision leti wo apki marzi malkin mai kuch ghus ke krwanee ki koshih nhi kruga 
+        </p>
+
+    </div>
+
+    <div class="buttons">
+
+        <!-- Opens Instagram profile -->
+        <a
+            class="btn instagram"
+            href="https://www.instagram.com/_yashwant_sawarn_/"
+            target="_blank">
+            📸 Unblock me on Instagram
+        </a>
+
+        <!-- Replace # with your Snapchat profile/share link -->
+        <a
+            class="btn snapchat"
+            href="#"
+            onclick="alert('I hope you will consider unblocking me on Snapchat too ❤️'); return false;">
+            👻 Unblock me on Snapchat
+        </a>
+
+    </div>
+
+    <p class="no-pressure">
+        No pressure. Just one honest request from me. ❤️
+    </p>
+
+</div>
+
+</body>
+</html>
